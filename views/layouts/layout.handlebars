@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/cssfeatured.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	
+
+
+	<style type="text/css">
+	.rightt{
+		padding-right: .5rem ;
+		padding-left: .5rem ;
+	}
+
+
+	.no-padding {
+		padding-left: 25px;
+		padding-right: 0;
+		height: 300px;
+	}
+
+	.navbar{
+		padding-bottom: 5rem;
+	}
+
+
+
+
+
+	.hovereffect {
+		width:100%;
+		height:100%;
+		float:left;
+		overflow:hidden;
+		position:relative;
+		text-align:center;
+		cursor:default;
+	}
+
+	.hovereffect .overlay {
+		width:100%;
+		height:100%;
+		position:absolute;
+		overflow:hidden;
+		top:0;
+		left:0;
+		opacity:0;
+		background-color:rgba(23,162,184,0.5);
+		-webkit-transition:all .4s ease-in-out;
+		transition:all .4s ease-in-out
+	}
+
+	.hovereffect img {
+		display:block;
+		position:relative;
+		-webkit-transition:all .4s linear;
+		transition:all .4s linear;
+	}
+
+	.hovereffect h2 {
+		text-transform:uppercase;
+		color:white;
+		text-align:center;
+		position:relative;
+		font-size:17px;
+		background:rgba(255,193,7,0.6);
+		-webkit-transform:translatey(-100px);
+		-ms-transform:translatey(-100px);
+		transform:translatey(-100px);
+		-webkit-transition:all .2s ease-in-out;
+		transition:all .2s ease-in-out;
+		padding:10px;
+	}
+
+	.hovereffect a.info {
+		text-decoration:none;
+		display:inline-block;
+		text-transform:uppercase;
+		color:#fff;
+		border:1px solid #fff;
+		background-color:transparent;
+		opacity:0;
+		filter:alpha(opacity=0);
+		-webkit-transition:all .2s ease-in-out;
+		transition:all .2s ease-in-out;
+		margin:50px 0 0;
+		padding:7px 14px;
+	}
+
+	.hovereffect a.info:hover {
+		box-shadow:0 0 5px #fff;
+	}
+
+	.hovereffect:hover img {
+		-ms-transform:scale(1.2);
+		-webkit-transform:scale(1.2);
+		transform:scale(1.2);
+	}
+
+	.hovereffect:hover .overlay {
+		opacity:1;
+		filter:alpha(opacity=100);
+	}
+
+	.hovereffect:hover h2,.hovereffect:hover a.info {
+		opacity:1;
+		filter:alpha(opacity=100);
+		-ms-transform:translatey(0);
+		-webkit-transform:translatey(0);
+		transform:translatey(0);
+	}
+
+	.hovereffect:hover a.info {
+		-webkit-transition-delay:.2s;
+		transition-delay:.2s;
+	}
+
+	.thumbnail {
+		position: relative;
+	}
+
+	.caption {
+		position: absolute;
+		top: 45%;
+		left: 0;
+		width: 100%;
+	}
+
+	.fa-pied-piper-pp{
+		font-size: 80px;
+	}
+
+
+	.rounded-circle{
+		background: #343a40;
+	}
+
+	.bg-dark {
+		background-color: black !important;
+	}
+
+	.custom-toggler .navbar-toggler-icon {
+		border: 1px solid white;
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+	}
+
+	.colorchange{
+		color: #17a2b8;
+		font-size: 0.75rem;
+	}
+
+	.jumbotron{
+		margin-top: 20px;
+		margin-right: 50px;
+		height: 600px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.dropdown-menu{
+		background-color:#17a2b8;
+		color: black; 
+		opacity: 50%;
+	}
+	.text-dark{
+		color: black!important;
+		font-weight: 400!important;
+	}
+
+	.dropdown-divider{
+		color: black;
+	}
+	.bg-info{
+		font-size:1.55rem;
+	}
+
+
+	.featured-media {
+		margin-top:0px!important;
+		margin-right:900px !important;
+	}
+
+	.lead{
+		margin-bottom: 100px!important;
+		font-size: 2.5rem!important; 
+	}
+
+	.my-4{
+		margin-bottom: 3rem!important;
+	}
+
+
+
+	.jumbotron .h1, .jumbotron h1 {
+		font-size: 70px;
+		margin-bottom: 3.5rem!important;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: .5rem;
+		padding-left: .5rem;
+		padding-bottom: .5rem;
+
+	}
+
+	.fa-pied-piper-pp {
+		font-size: 60px;
+		margin-bottom: 0px;
+	}
+	.navbar {
+		padding-bottom: 2rem;
+	}
+	.navbar-toggler{
+		margin-right: 7%!important;
+	}
+
+	.navbar-brand{
+		margin-right: auto!important;
+	}
+
+</style>
+</head>
+
+
+<body class="bg-info">
+	<nav class="navbar navbar-expand-md navbar-expand-lg navbar-light bg-dark text-white " id="special">
+		<div class="container">
+			<a class="navbar-brand text-info" href="/" > <i class="fab fa-pied-piper-pp"></i>
+			</a>
+			<button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars colorchange" style="font-size: 1.5rem"></i>
+
+
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link text-warning" href="/"> <i class="fas fa-home"></i>
+
+							Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-warning" href="#"><i class="fas fa-robot"></i>
+
+							Ask Bot</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-comments"></i>
+
+								Question Rooms
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item text-dark" href="#">Public Rooms</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item text-dark" href="#">Private Rooms</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-warning" href="url(Papers.html)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-newspaper"></i>
+
+								Papers
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item text-dark" href="/Papers/IGCSE">Cambridge IGCSE</a>
+								<a class="dropdown-item text-dark" href="/Papers/A-Level">Edexcel A-Level</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item text-dark" href="#">Cambridge</a>
+							</div>
+						</li>
+
+						<li class="nav-item active">
+						<a class="nav-link text-warning" href="/register/FormSubmission"> 
+
+							Register <span class="sr-only">(current)</span></a>
+						</li>
+
+					</ul>
+					<div >
+						<ul class="navbar-nav ml-auto " >
+
+
+
+							{{#if user}}
+							<li class="nav-item">
+								<a class="nav-link text-info" href="../users/logout"> 
+
+								Logout</a>
+							</li>
+							
+							{{else}}
+							<li class="nav-item">
+								<a class="nav-link text-info" href="../users/SignUp"> <i class="fas fa-user-plus"></i>
+
+								Sign Up</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-info" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-sign-in"></i>Login
+								</a>
+								<div class="dropdown-menu " aria-labelledby="navbarDropdown">
+									<a class="dropdown-item text-dark" href="../users/TeacherLogin" >Teacher</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item text-dark" href="../users/StudentLogin">Student</a>
+								</div>
+							</li>
+							{{/if}}
+
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</nav>
+{{#if success_msg}}
+            <div class="alert alert-success">{{success_msg}}</div>
+          {{/if}}
+
+          {{#if error_msg}}
+            <div class="alert alert-danger">{{error_msg}}</div>
+          {{/if}}
+
+          {{#if error}}
+            <div class="alert alert-danger">{{error}}</div>
+          {{/if}}
+
+
+{{{body}}}
+
+<script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+	(A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+	r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+}(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-41684215-2');
+ga('send', 'pageview');</script>
+<script src="scripts/vendor.js"></script>
+<script src="scripts/vendor/isotope.min.333ccf0e.js"></script>
+<script src="scripts/vendor/ng-infinite-scroll.min.4042e865.js"></script>
+<script src="scripts/vendor/tweenmax.min.7c9e1e5f.js"></script>
+<script src="scripts/vendor/jquery.fancybox.pack.cc9e759f.js"></script>
+<script src="scripts/scripts.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>

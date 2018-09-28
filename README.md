@@ -15,4 +15,4 @@ This is basically designed to include:
 		- Private forums for tutors and their private group so that they can communicate about group specific info/material
 		- Public forums for everyone else (even if they are not registered to a collaborating tutor)
 
-![alt text](https://raw.githubusercontent.com/adesouky/PiedPiper-name-in-progress-/master/public/images/SS.png)
+![alt text](public/images/SS.png?raw=true "Screenshot")

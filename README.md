@@ -1,5 +1,7 @@
 # PiedPiper-name-in-progress-
 
+**planning on having a working prototype by late November.
+
 This is basically designed to include:
 
 	- a web portal for tutors such that tutors who teach 12-15 students per group have a convenient way 
@@ -14,5 +16,10 @@ This is basically designed to include:
 	The forum will have the following categories:
 		- Private forums for tutors and their private group so that they can communicate about group specific info/material
 		- Public forums for everyone else (even if they are not registered to a collaborating tutor)
+
+	- I am also thinking about adding a bot that would answer any questions students
+	might have about exam logistics just because it might be fun to develop and from 
+	my experience would be beneficial to students and would releave alot of the 
+	confusion they have.
 
 ![alt text](public/images/SS.png?raw=true "Screenshot")

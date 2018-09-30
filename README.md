@@ -17,9 +17,8 @@ This is basically designed to include:
 		- Private forums for tutors and their private group so that they can communicate about group specific info/material
 		- Public forums for everyone else (even if they are not registered to a collaborating tutor)
 
-	- I am also thinking about adding a bot that would answer any questions students
-	might have about exam logistics just because it might be fun to develop and from 
-	my experience would be beneficial to students and would releave alot of the 
-	confusion they have.
+	- we are also thinking about adding a bot that would answer any questions students
+	might have about exam logistics just because it might be fun to develop and would be beneficial to students 
+	by relieving alot of the confusion they have.
 
-![alt text](public/images/SS.png?raw=true "Screenshot")
+![screenshot](public/images/SS.png?raw=true "Screenshot")

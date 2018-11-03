@@ -1,4 +1,4 @@
-# :ledger: PiedPaper
+# :closed_book: PiedPaper
 
 **planning on having a working prototype by late December.
 

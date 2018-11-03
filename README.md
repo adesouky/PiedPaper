@@ -17,7 +17,7 @@ This is basically designed to include:
 		- Private forums for tutors and their private group so that they can communicate about group specific info/material
 		- Public forums for everyone else (even if they are not registered to a collaborating tutor)
 
-Extra feature:
+## Extra feature:
 	- Adding a bot that uses NLP to answer exam logistics, rules, dates, deadlines & syllabi questions
 
 

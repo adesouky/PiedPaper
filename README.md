@@ -1,6 +1,6 @@
 # PiedPiper-name-in-progress-
 
-**planning on having a working prototype by late November.
+**planning on having a working prototype by late December.
 
 This is basically designed to include:
 

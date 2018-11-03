@@ -1,4 +1,4 @@
-# PiedPiper-name-in-progress-
+# PiedPaper
 
 **planning on having a working prototype by late December.
 

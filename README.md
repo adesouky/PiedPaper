@@ -1,21 +1,20 @@
-# PiedPaper
+# :star: PiedPaper
 
 **planning on having a working prototype by late December.
 
-This is basically designed to include:
+## Tutor Requirements:
 
-	- a web portal for tutors such that tutors who teach 12-15 students per group have a convenient way 
-	to communicate with their students, assign homeworks, & share documents/links.
+	- Managing payments, assignments and communications for multiple 12-15 student groups.
 
-	- A one stop resource for british educational system (A-Level) students. It will provide:
+	- A one stop resource for british educational system (A-Level) students. 
+		This includes:
 		- access to up to date past exam papers for all curriculums
-		- access to notes either from collaborating tutors or from other resources.
+		- access to notes either from collaborating tutors or from other resources
 		- access to recommended exam tips, syllabuses, grade boundaries, etc ...
 
-	- An educational forum that will allow student to ask questions and have it answered by other students. 
-	The forum will have the following categories:
-		- Private forums for tutors and their private group so that they can communicate about group specific info/material
-		- Public forums for everyone else (even if they are not registered to a collaborating tutor)
+	- An educational forum system categorized into:
+		- Private forums: Only tutors and registered students can view and contribute
+		- Public forums: for everyone else (even if they are not registered to a collaborating tutor)
 
 ## Extra feature:
 	- Adding a bot that uses NLP to answer exam logistics, rules, dates, deadlines & syllabi questions

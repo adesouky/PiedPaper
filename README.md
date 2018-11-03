@@ -1,4 +1,4 @@
-# :star: PiedPaper
+# :ledger: PiedPaper
 
 **planning on having a working prototype by late December.
 

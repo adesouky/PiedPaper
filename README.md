@@ -2,7 +2,7 @@
 
 **planning on having a working prototype by late December.
 
-## Tutor Requirements:
+## MVP:
 
 	- Managing payments, assignments and communications for multiple 12-15 student groups.
 
